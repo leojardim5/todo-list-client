@@ -1,0 +1,42 @@
+.header{
+    background-color: #808080;
+    height: 10vh;
+    display: flex;
+  }
+
+.linkCss{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+  
+  .divContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin:0 40px;
+    color:#fff;
+  }
+  
+  .divContainer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .linkActive{
+  font-size: 1px;
+ }
+  
+  .divContainer li{
+    list-style: none;
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .divContainer li a{
+    text-decoration: none;
+    color:#fff;
+  }

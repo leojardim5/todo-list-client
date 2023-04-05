@@ -1,0 +1,67 @@
+.listaTodo{
+    width:20%;
+    height: 70%;
+    border: 1px solid grey;
+    background-color: #808080;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 20px;
+    overflow: auto;
+}
+
+.listaTodo::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+    background-color: #808080;
+}
+
+.listaTodo::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color:white;
+  
+}
+
+.listaTodo h1{
+    margin-bottom: 15px;
+}
+
+.listaTodo .itemLista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
+
+.listaTodo ul li{
+    word-wrap: break-word;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.listaTodo .itemLista button{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 3px 0px #8B0000;
+    transition: all 0.2s ease-in-out;
+}
+
+.listaTodo .itemLista button:hover{
+    background-color: darkred;
+}
+
+.listaTodo .itemLista button:active{
+    transform: scale(0.95);
+    box-shadow: none;
+}
